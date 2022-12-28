@@ -5,13 +5,8 @@
     "default": {
       "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": [
-          "build",
-          "lint",
-          "test",
-          "e2e"
-        ],
-        "accessToken": "YmQzYjIxZWEtMTFjZi00YzNmLWE3ZDItZDUwYzY0OTNkZTU5fHJlYWQtd3JpdGU="
+        "cacheableOperations": ["build", "test", "lint"],
+        "accessToken": "MGZhMzkyNTQtY2RkOS00OGExLWI0YTItMWViMzYyOGNhMTZkfHJlYWQtd3JpdGU="
       }
     }
   },
@@ -74,5 +69,6 @@
       "style": "scss"
     }
   },
-  "defaultProject": "theyr-in"
+  "defaultProject": "theyr-in",
+  "defaultBase": "main"
 }
