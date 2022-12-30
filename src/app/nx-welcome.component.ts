@@ -420,7 +420,7 @@ import { NgbAlert } from '@ng-bootstrap/ng-bootstrap';
   encapsulation: ViewEncapsulation.None,
 })
 export class NxWelcomeComponent {
-  movie = inject(MovieService).findMovie('The Matrix');
+  movie = inject(MovieService).getSimilarMovies(106912, 'en');
 
   ngOnInit() {
     this.movie.subscribe(x => console.log(x));
